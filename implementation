@@ -1,9 +1,9 @@
-wcat filename1 -> gives all contains of f1
-wcat filename1 filename2 ... ->give all contains of f1 and f2
-wcat -s filename1 -> remove all space except one after text
-wcat -n filename1 -> give numbering to all line in f1
-wcat -b filename1 -> give numbering to non-empty space
+wcatHW filename1 -> gives all contains of f1
+wcatHW filename1 filename2 ... ->give all contains of f1 and f2
+wcatHW -s filename1 -> remove all space except one after text
+wcatHW -n filename1 -> give numbering to all line in f1
+wcatHW -b filename1 -> give numbering to non-empty space
 
-wcat filename1 filename2 >> f6.txt ->
+wcatHW filename1 filename2 >> f6.txt ->
 
-wcat filename1 > filename2 ->
+wcatHW filename1 > filename2 ->
